@@ -1,8 +1,17 @@
 \documentclass[line,overlapped]{myres}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{fancyhdr}
 
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[L]{\footnotesize Francis J.\ DiTraglia CV}
+  \fancyfoot[C]{\footnotesize Page \thepage}
+  \fancyfoot[R]{\footnotesize Updated: \today}
+}
 
+\pagestyle{plain}
 %%===========================================================================%%
 
 \begin{document}
@@ -82,11 +91,11 @@ United Kingdom
 
 \section{\sc Publications}
 \begin{itemize}
-  \item Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Verena Zuber, and Stephen Burgess), Forthcoming \emph{Annals of Applied Statistics}. 
+  \item Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Verena Zuber, and Stephen Burgess), \emph{Annals of Applied Statistics}, 2024, 18(2), pp.\ 1729-1749. 
   \item Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois (with Ali Abbasi, Ludovica Gazze, and Bridge Pals), \emph{Journal of Health Economics}, July 2023, 90, 102783.
-  \item Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keefe-O'Donovan, and Alejandro Sanchez), \emph{Journal of Econometrics}, 2023, 235 (2), pp.\ 1589-1624.
-  \item A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with C.\ Garcia-Jimeno), \emph{Journal of Business and Economic Statistics}, 2021, 39 (4), pp.\ 1038-1053.
-  \item Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor (with Camilo Garcia-Jimeno), \emph{Journal of Econometrics}, 2019, 209 (2), pp.\ 376-390.
+  \item Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garc\'{i}a-Jimeno, Rossa O'Keefe-O'Donovan, and Alejandro S\'anchez-Becerra), \emph{Journal of Econometrics}, 2023, 235 (2), pp.\ 1589-1624.
+    \item A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with C.\ Garc\'{i}a-Jimeno), \emph{Journal of Business and Economic Statistics}, 2021, 39 (4), pp.\ 1038-1053.
+  \item Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor (with Camilo Garc\'{i}a-Jimeno), \emph{Journal of Econometrics}, 2019, 209 (2), pp.\ 376-390.
   \item A Generalized Focused Information Criterion for GMM (with Minsu Chang), \emph{Journal of Applied Econometrics}, 2018, 33 (3), pp.\ 378-397.
   \item Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM\\ \emph{Journal of Econometrics}, 2016, 195 (2), pp.\ 187--208.
 	\item Portfolio Selection: An Extreme Value Approach (with Jeffrey Gerlach), \emph{Journal of Banking and Finance}, 2013, 37 (2), pp.\ 305--323.
@@ -97,24 +106,28 @@ United Kingdom
 
 \section{\sc Working Papers}
 \begin{itemize}
-  \item The Controlled Choice Design and Private Paternalism in Pawnshop Borrowing (with Issac Meza, Joyce Sadka, Enrique Seira, \& Craig McIntosh)
+  \item Structured Payment in Pawnshop Borrowing: Mandates versus Choice (with Issac Meza, Joyce Sadka, Enrique Seira, \& Craig McIntosh)
 \end{itemize}
 
 
 \section{\sc Works in Progress}
 \begin{itemize}
-  \item Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
-  \item A History of Violence: Forced Displacement and \emph{de facto} Land Reform in Rural Colombia (with Camilo Garcia-Jimeno)
-  %\item Nonparametric Analysis of Labor Supply using Gaussian Process Regression (with Ian Crawford)
+  \item Bayesian Alternatives to Double Machine Learning for Causal Inference (with Laura Liu)
+  \item To Link or Not to Link? Estimating Long-run Treatment Effects from Historical Data (with Camilo Garc\'{i}a-Jimeno \& Ezra Karger) 
+  \item Experimenting with Spillovers: A Guide for Practitioners (with Alejandro S\'anchez-Becerra)
+  \item Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazz\`e, Reshmi Das, Yigal Erel, Edward Boyle \& Dominik Weiss)
   \item Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazz\`e) 
-  \item Estimating the Returns to Lying (with Arthur Lewbel)
+  \item A History of Violence: Forced Displacement and \emph{de facto} Land Reform in Rural Colombia (with Camilo Garc\'{i}a-Jimeno)
+  %\item Nonparametric Analysis of Labor Supply using Gaussian Process Regression (with Ian Crawford)
+  %\item Estimating the Returns to Lying (with Arthur Lewbel)
 \end{itemize}
 
 \section{\sc Grants}
 \begin{itemize}
+  \item UKRI Cross Research Council Responsive Mode (CRCRM) -- ``Elevated Childhood Lead Interagency Prevalence Study (ECLIPS)'', January 2025--December 2027 % 666,708 GBP
   \item Oxford Social Science Division Integrated Impact Grant -- ``Mapping Disparities in Childhood Lead Exposure,'' Summer 2023 % 5,000 GBP
-  \item John Fell OUP Research Fund Pump-priming Grant -- ``Identifying Causal Effects in Experiments with Social Interactions and Non-compliance,'' January 2020 -- December 2023 % 20,000 GBP
   \item Oxford Public Policy Challenge Fund Award -- ``Mapping Disparities in Childhood Lead Exposure in England,'' December 2021 -- May 2022 % 50,000 GBP
+  \item John Fell OUP Research Fund Pump-priming Grant -- ``Identifying Causal Effects in Experiments with Social Interactions and Non-compliance,'' January 2020 -- December 2023 % 20,000 GBP
   \item Oxford Social Sciences Division Teaching Development and Enhancement Project Award -- ``Core Empirical Research Methods,'' June 2021 -- June 2022 % 3,000 GBP plus an additional 3,000 GBP matched by the Economics Department
   \item Center for Teaching and Learning Course Development Grant (UPenn) -- ``Statistical Learning and Causal Inference for Economics,'' Spring 2018 % 5,000 USD
   \item University Research Foundation Award (UPenn) -- ``A Framework for Eliciting, Incorporating and Disciplining Identification Beliefs in Linear Models,'' Spring 2016 -- Spring 2017 % 9,000 USD
@@ -127,34 +140,34 @@ United Kingdom
 %---------------------------------------------------------------------------
 
 
-\section{\sc Awards}
+\section{\sc Honors and Awards}
 \vspace{1em}
 \begin{itemize}
 %\item Penn Undergraduate Research Mentorship Award, 2015
 %\item Amazon Web Services in Education Grant, 2015
 \item Kravis Award for Outstanding Undergraduate Teaching in Economics, 2014 and 2017
 \item Cambridge International Scholarship, 2009--2012
-%\item Humane Studies Fellowship, 2009--2012
-%\item Economics Department Fellowship, UCSD, 2007
+\item Humane Studies Fellowship, 2009--2012
+\item Economics Department Fellowship, UCSD, 2007--2008
 %\item PSI Prize (Best Performance in Statistics MSc), St Andrews, 2007
 \item Rotary Ambassadorial Scholarship, St Andrews, 2006--2007
 \item Lord Botetourt Medal (equivalent of valedictorian), William \& Mary, 2006
 %\item Phi Beta Kappa, William \& Mary, 2005
-%\item Cissy Patterson Prize in Mathematics, William \& Mary, 2006
-%\item Class of 1940 Scholarship, William \& Mary, 2004--2006
+\item Cissy Patterson Prize in Mathematics, William \& Mary, 2006
+\item Class of 1940 Scholarship, William \& Mary, 2004--2006
 \end{itemize}
 
 \section{\sc Teaching }
-\vspace{0.5em}
-Oxford: Treatment Effects (Grad), Limited Dependent Variables (Grad), Empirical Research Methods (Grad), Econometrics (Undergrad), Quantitative Economics (Undergrad), Behavioral \& Experimental Economics (Undergrad), Introductory Probability \& Statistics (Undergrad)
-
-UPenn: Model Selection and Statistical Learning (Grad), Statistics for Economists (Undergrad), Statistical Learning and Causal Inference (Undergrad)
-	
+\begin{description}[style=multiline,leftmargin=3cm,font=\normalfont]
+  \item[Short Courses:] Causal Inference: The Basics, Causal Inference: Beyond the Basics
+  \item[Oxford:] Treatment Effects (Grad), Limited Dependent Variables (Grad), Empirical Research Methods (Grad), Econometrics (Undergrad), Behavioral \& Experimental Economics (Undergrad), Introductory Probability \& Statistics (Undergrad)
+  \item[UPenn:] Model Selection and Statistical Learning (Grad), Statistics for Economists (Undergrad), Statistical Learning and Causal Inference (Undergrad)
+\end{description}
 
 
 \section{\sc Graduate Advising}
 \begin{description}[style=multiline,leftmargin=3cm,font=\normalfont]
-  \item[Main Supervisor:] Irina Pimenova (Citadel Securities, 2018), Tim Hursey (Afiniti, 2019)
+  \item[Main or Joint Supervisor:] Antilia Virginie (in progress), Emily Oehlsen (Open Philanthropy, 2024), Irina Pimenova (Citadel Securities, 2018), Tim Hursey (Afiniti, 2019)
   \item[Committee \\ Member:] Lorenzo Braccini (Bank of Italy, 2015); Minchul Shin (UIUC, 2015); Laura Liu (Fed Board of Governors, 2017), Ross Ashkenazi (Cornerstone Research, 2017); Minsu Chang (Georgetown University, 2019); Alejandro S\'{a}nchez-Becerra (Emory, 2021)
 \end{description}
 
@@ -162,18 +175,22 @@ UPenn: Model Selection and Statistical Learning (Grad), Statistics for Economist
 \section{\sc Professional Activities}
 
 \begin{description}[style=multiline,leftmargin=3cm,font=\normalfont]
-  \item[Refereeing:] American Economic Review, Annals of Statistics, Biometrika, Econometrica, Econometric Reviews, Econometric Theory, Econometrics Journal, International Economic Review, International Journal of Forecasting, International Review of Economics and Finance, Journal of Applied Econometrics, Journal of Business and Economic Statistics, Journal of Econometrics, Journal of Financial and Quantitative Analysis, Journal of Multivariate Analysis, Oxford Economics Papers, Journal of Statistical Planning and Inference, Journal of Political Economy Microeconomics, Labour Economics, Quantitative Economics, Review of Economic Studies 
+  \item[Refereeing:] American Economic Review, Annals of Statistics, Biometrika, Econometrica, Econometric Reviews, Econometric Theory, Econometrics Journal, International Economic Review, International Journal of Forecasting, International Review of Economics and Finance, Journal of Applied Econometrics, Journal of Business and Economic Statistics, Journal of Econometrics, Journal of Financial and Quantitative Analysis, Journal of Multivariate Analysis, Journal of Statistical Planning and Inference, Journal of Political Economy Microeconomics, Labour Economics, Oxford Economics Papers, Oxford Bulletin of Economics \& Statistics, Quantitative Economics, Review of Economic Studies 
   \item[Workshops \\ Organized:]
+    \emph{Bayesian Approaches to Causal Inference} (Oxford, Feb.\ 2025)\\
+    \emph{Online Bayesian Reading Group in Bayesian Inference} (July 2024--present)\\
     \emph{High-Dimensional Econometrics and Statistics} (Warren Center, Oct.\ 2015), \\
     \emph{Big Data and Open Science with R} (Warren Center, Nov.\ 2014)
+  \item[Miscellaneous:] Co-founder \url{https://sqare.org}\\ Proprietor \url{https://econometrics.blog}
 \end{description}
 
 
 
-\section{\sc Seminars and Conference Presentations}
+\section{\sc Seminar and Conference Presentations}
 
 \begin{description}[style=multiline,leftmargin=2cm,font=\normalfont]
-  \item[2022-2023] Federal Reserve Bank of Chicago
+  \item[2024--2025] CFE-CMStatistics International Joint Conference, University of York
+  \item[2022--2023] Federal Reserve Bank of Chicago
   \item[2021--2022] Bristol Econometrics Study Group, UC Irvine, Lancaster, Econometric Society European Summer Meeting 
   \item[2020--2021:] Econometric Society World Congress, Fed/NCSU Econometrics Workshop, RES Annual Meeting, University of Zurich 
   \item[2019--2020:] \emph{Postponed due to Coronavirus: University of Bristol, University of Groningen, Singapore Management University, National University of Singapore, RES Annual Conference, University of Zurich}
